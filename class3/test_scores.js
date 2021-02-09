@@ -15,7 +15,7 @@ do {
 		//document.write(`<p>Score = ${score} Count is ${count}`);
 		//arrayScores.push() = score;
 		arrayScores[count] = score;
-		alert(arrayScores[count]);
+		//alert(arrayScores[count]);
 		document.write(`<p>Score = ${arrayScores[count]} Count is ${count}`);
 		count++;
 	}

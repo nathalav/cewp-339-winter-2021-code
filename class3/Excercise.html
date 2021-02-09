@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<script>
+	    mainArray = [];
+		
+		function addToArray(){
+		
+			textbox = document.getElementById("txt1");
+			
+			arrayValue = textbox.value;
+			mainArray.push(arrayValue);
+			
+			document.getElementById("arrayResult").innerHTML = mainArray.join("|");
+			textbox.value = "";
+		}		
+		</script>
+	</head>
+	<body>
+	
+	
+		<p>
+			<input type="text" id="txt1"></input>
+		</p>
+
+		<p>
+			<button id="btn1" onclick="addToArray();">Add to array</button>
+		</p>
+		<hr>
+		<p><span id="arrayResult"></span></p>
+	
+	</body>
+
+
+</html>
+
+
